@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body {
+    display: flex;
+    justify-content: center; /* Centers the box horizontally */
+    align-items: center; /* Centers the box vertically */
+    height: 100vh; /* Sets the height of the body to the full viewport height */
+    background-image: linear-gradient(rgba(245, 238, 238, 0.5), rgba(201, 76, 76, 0.5)), url(bgimg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ 
+ .box {
+    border: 3px solid black;
+    background-color: rgba(248, 191, 235, 0.847);
+    padding: 50px 60px; /* Adjust padding for better appearance */
+    box-shadow: 10px 15px 30px rgba(255, 0, 191, 0.411);
+    width: fit-content; /* Makes the box width fit its content */
+    text-align: center; /* Centers the text inside the box */
+ }
+ 
+ .box p {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px; /* Adjust margin for better spacing */
+ }
+ 
+ .box li {
+    list-style: none;
+    margin: 10px 0; /* Adjust margin for better spacing */
+    display: flex;
+    align-items: center; /* Aligns the radio button with the text */
+ }
+ 
+ .box li input[type="radio"] {
+    margin-right: 10px; /* Adds space between radio button and text */
+ }
+ 
+ #submit {
+    background-color: grey;
+    color: white;
+    padding: 9px 41px;
+    margin-top: 25px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+ }
+
+
+ 
